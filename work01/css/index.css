@@ -1,0 +1,251 @@
+/* 整体布局 */
+.app {
+    display: grid;
+    grid: 40px 100px 667px / auto;
+}
+
+/* top-bar顶部条 */
+.v-line {
+    margin: 0 6px;
+    color: #424242;
+}
+
+.top-bar-bg {
+    font-size: 12px;
+    background: #333;
+    display: flex;
+    justify-content: center;
+}
+
+.top-bar {
+    width: 1226px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar a {
+    color: #b0b0b0;
+}
+
+.top-bar a:hover{
+    color: #fff;
+}
+
+.top-bar-nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.top-bar-right {
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+}
+
+.top-bar-right .login-reg {
+    margin-right: 10px;
+}
+
+.top-bar-right .login-reg ul {
+    display: flex;
+}
+
+.top-bar-right .top-car a {
+    text-align: center;
+    display: block;
+    width: 120px;
+    background-color: #424242;
+}
+
+.top-car {
+    margin-left: 15px;
+}
+
+.top-car img {
+    width: 19px;
+    margin-bottom: -5px;
+    margin-right: 6px;
+}
+
+/* 头部header */
+.header-bg {
+    display: flex;
+    justify-content: center;
+}
+
+.header-bg .header {
+    width: 1226px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-bg .header .header-logo {
+    width: 62px;
+}
+
+.header-bg .header .header-logo a {
+    width: 56px;
+    height: 56px;
+    display: block;
+    position: relative;
+}
+
+.header-bg .header .header-logo a::after {
+    content: "";
+    background: url(../images/logo-mi2.png) no-repeat;
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: 56px;
+}
+
+.header-bg .header-nav {
+    margin-left: 60px;
+}
+
+.header-bg .header-nav ul {
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-bg .header-nav ul a {
+    color: #333;
+    font-size: 16px;
+    padding: 26px 8px 38px;
+}
+
+.header-search {
+    position: relative;
+}
+
+.header-search input {
+    width: 245px;
+    height: 48px;
+    padding: 0 10px;
+    line-height: 48px;
+    margin-right: 51px;
+    border: 1px solid #e0e0e0;
+}
+
+.header-search button {
+    width: 52px;
+    height: 48px;
+    position: absolute;
+    right: 0;
+    background: white;
+    border: 1px solid #e0e0e0;
+}
+
+.header-search button::before {
+    content: "";
+    background: url(../images/search.png) no-repeat;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: calc(50% - 8px);
+    left: calc(50% - 8px);
+    background-size: 16px;
+}
+
+/* 商品分类 */
+.cate-rot {
+    display: flex;
+    justify-content: center;
+}
+
+.rotation {
+    width: 1226px;
+    display: flex;
+    justify-content: center;
+}
+
+.rotation-size {
+    width: 1266px;
+    height: 460px;
+}
+
+.rotation-img-size {
+    width: 100%;
+    height: 100%;
+}
+
+.category {
+    width: 234px;
+    height: 460px;
+    padding: 20px 0;
+    color: #fff;
+    background: rgba(105, 101, 101, .6);
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.category ul li {
+    width: 100%;
+    height: 42px;
+}
+
+.category ul li a {
+    display: block;
+    color: #fff;
+    padding-left: 30px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 14px;
+}
+
+.category .category-icon{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 0;
+}
+
+.category .category-icon::before{
+    content: "";
+    background: url(/images/right.png) no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 25px;
+    position: absolute;
+    top: -36px;
+    right: 15px;
+}
+
+.category ul li:hover {
+    background-color: rgb(255, 103, 1);
+}
+
+/* 修改轮播图 */
+.carousel-control-prev {
+    width: 40px !important;
+    height: 70px !important;
+    top: calc(460px / 2 - 41px / 2) !important;
+    left: calc(234px) !important;
+}
+
+.carousel-control-next {
+    width: 40px !important;
+    height: 70px !important;
+    top: calc(460px / 2 - 41px / 2) !important;
+}
+
+.carousel-control-prev:hover {
+    background-color: rgba(115, 115, 115, .4);
+}
+
+.carousel-control-next:hover {
+    background-color: rgba(115, 115, 115, .4);
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    width: 41px !important;
+    height: 59px !important;
+}
