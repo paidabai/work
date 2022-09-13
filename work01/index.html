@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./css/icon.css">
         <link rel="stylesheet"
             href="./node_modules/bootstrap/dist/css/bootstrap.css">
         <link rel="stylesheet" href="./css/base.css">
@@ -54,8 +55,7 @@
                             </ul>
                         </div>
                         <div class="top-car">
-                            <a href=""><img src="./images/shoppingcart.png"
-                                    alt="">购物车 (0)</a>
+                            <a href=""><i class="iconfont-cart"></i>购物车 (0)</a>
                         </div>
                     </div>
                 </div>
@@ -87,21 +87,50 @@
                 <div class="rotation">
                     <div id="carouselExampleFade" class="carousel slide
                         carousel-fade rotation-size" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button"
+                                data-bs-target="#carouselExampleFade"
+                                data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button"
+                                data-bs-target="#carouselExampleFade"
+                                data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button"
+                                data-bs-target="#carouselExampleFade"
+                                data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button"
+                                data-bs-target="#carouselExampleFade"
+                                data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button"
+                                data-bs-target="#carouselExampleFade"
+                                data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="./images/1275a0dc0120ef836b93dae7c7489c05.webp" class="d-block rotation-img-size" alt="">
+                                <img
+                                    src="./images/1275a0dc0120ef836b93dae7c7489c05.webp"
+                                    class="d-block rotation-img-size" alt="">
                             </div>
                             <div class="carousel-item">
-                                <img src="./images/485756314f3e3f870d298db61339b891.webp" class="d-block rotation-img-size" alt="">
+                                <img
+                                    src="./images/485756314f3e3f870d298db61339b891.webp"
+                                    class="d-block rotation-img-size" alt="">
                             </div>
                             <div class="carousel-item">
-                                <img src="./images/d5bcaeb5b2c0d8853a1f26036951364c.webp" class="d-block rotation-img-size" alt="">
+                                <img
+                                    src="./images/d5bcaeb5b2c0d8853a1f26036951364c.webp"
+                                    class="d-block rotation-img-size" alt="">
                             </div>
                             <div class="carousel-item">
-                                <img src="./images/fb9e3201ac236e7d93d98d80cd56f185.webp" class="d-block rotation-img-size" alt="">
+                                <img
+                                    src="./images/a4e559007a9a24f3ea5f38356ac35904.webp"
+                                    class="d-block rotation-img-size" alt="">
                             </div>
+
                             <div class="carousel-item">
-                                <img src="./images/485756314f3e3f870d298db61339b891.webp" class="d-block rotation-img-size" alt="">
+                                <img
+                                    src="./images/c34ea2dc82dd56d7ce2c21526ab3d36f.webp"
+                                    class="d-block rotation-img-size" alt="">
                             </div>
                         </div>
                         <button class="carousel-control-prev " type="button"
@@ -120,23 +149,453 @@
                         </button>
                         <div class="category">
                             <ul>
-                                <li><a href="#">手机</a><em class="category-icon"></em></li>
-                                <li><a href="#">电视</a><em class="category-icon"></em></li>
-                                <li><a href="#">笔记本 平板</a><em class="category-icon"></em></li>
-                                <li><a href="#">出行 穿戴</a><em class="category-icon"></em></li>
-                                <li><a href="#">耳机 音响</a><em class="category-icon"></em></li>
-                                <li><a href="#">家电</a><em class="category-icon"></em></li>
-                                <li><a href="#">智能 路由器</a><em class="category-icon"></em></li>
-                                <li><a href="#">电源 配件</a><em class="category-icon"></em></li>
-                                <li><a href="#">健康 儿童</a><em class="category-icon"></em></li>
-                                <li><a href="#">生活 箱包</a><em class="category-icon"></em></li>
+                                <li>
+                                    <a href="#">手机</a>
+                                    <em class="category-icon"></em>
+                                </li>
+                                <li>
+                                    <a href="#">电视</a>
+                                    <em class="category-icon"></em>
+                                </li>
+                                <li>
+                                    <a href="#">笔记本 平板</a>
+                                    <em class="category-icon"></em>
+                                </li>
+                                <li>
+                                    <a href="#">出行 穿戴</a>
+                                    <em class="category-icon"></em>
+                                </li>
+                                <li>
+                                    <a href="#">耳机 音响</a>
+                                    <em class="category-icon"></em>
+                                </li>
+                                <li>
+                                    <a href="#">家电</a>
+                                    <em class="category-icon"></em>
+                                </li>
+                                <li>
+                                    <a href="#">智能 路由器</a>
+                                    <em class="category-icon"></em>
+                                </li>
+                                <li>
+                                    <a href="#">电源 配件</a>
+                                    <em class="category-icon"></em>
+                                </li>
+                                <li>
+                                    <a href="#">健康 儿童</a>
+                                    <em class="category-icon"></em>
+                                </li>
+                                <li>
+                                    <a href="#">生活 箱包</a>
+                                    <em class="category-icon"></em>
+                                </li>
                             </ul>
                         </div>
                     </div>
-                    
+                </div>
+                <div class="cate-rot-bot">
+                    <div class="service">
+                        <ul>
+                            <li><a href="#"><img
+                                        src="./images/82abdba456e8caaea5848a0cddce03db.png"
+                                        alt="">保障服务</a></li>
+                            <li><a href="#"><img
+                                        src="./images/806f2dfb2d27978e33fe3815d3851fa3.png"
+                                        alt="">企业团购</a></li>
+                            <li><a href="#"><img
+                                        src="./images/eded6fa3b897a058163e2485532c4f10.png"
+                                        alt="">F码通道</a></li>
+                            <li><a href="#"><img
+                                        src="./images/43a3195efa6a3cc7662efed8e7abe8bf.png"
+                                        alt="">米粉卡</a></li>
+                            <li><a href="#"><img
+                                        src="./images/f4846bca6010a0deb9f85464409862af.png"
+                                        alt="">以旧换新</a></li>
+                            <li><a href="#"><img
+                                        src="./images/9a76d7636b08e0988efb4fc384ae497b.png"
+                                        alt="">话费流量</a></li>
+                        </ul>
+                    </div>
+                    <a class="vivid" href=""><img
+                            src="./images/32a62196b9af47752c96e7a50c86417c.jpg"
+                            alt=""></a>
+                    <a class="vivid" href=""><img
+                            src="./images/5668146e20fc025caa756a0f8a3c7da4.jpg"
+                            alt=""></a>
+                    <a class="vivid" href=""><img
+                            src="./images/28c13d0d11b38ec17fa5d83bc6ba5912.jpg"
+                            alt=""></a>
+                </div>
+            </div>
+            <div class="container-bg">
+                <div class="container-product">
+                    <div class="container-top-img">
+                        <a href="#">
+                            <img
+                                src="./images/2656295f6c067f48a04a425acf15a096.webp"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="phone">
+                        <div class="phone-header">
+                            <span>手机</span>
+                            <a href="#">查看更多<i class="iconfont
+                                    iconfont-arrow-right-big"></i></a>
+                        </div>
+                        <div class="product">
+                            <a href="#" class="product-left">
+                                <img
+                                    src="./images/fef86f3a976842446ec7c3f315cf253f.webp"
+                                    alt="">
+                            </a>
+                            <a href="#">
+                                <img
+                                    src="./images/a687e796bb4879cd0e93867177f800da.webp"
+                                    alt="">
+                                <h3>Xiaomi MIX Fold 2</h3>
+                                <p>超轻薄折叠机身设计，小米自研微水滴形态转轴</p>
+                                <p class="price">8999元起</p>
+                            </a>
+                            <a href="#">
+                                <img
+                                    src="./images/202208101511_488638d8f8d5dbcf3b66cd82703ecfb9.webp"
+                                    alt="">
+                                <h3>Redmi K50 至尊版</h3>
+                                <p>骁龙8+ | 1.5k高清直屏</p>
+                                <p class="price">2999元起</p>
+                            </a>
+                            <a href="#">
+                                <img
+                                    src="./images/202207011810_86ad513472d1423a3fdec8d7d5107038.webp"
+                                    alt="">
+                                <h3>Xiaomi 12S Ultra</h3>
+                                <p>这真徕卡 | 专业徕卡影像</p>
+                                <p class="price">5999元起</p>
+                            </a>
+                            <a href="#">
+                                <img
+                                    src="./images/202207012000_0b9df066c110f201154013ac373df1d9.webp"
+                                    alt="">
+                                <h3>Xiaomi 12S Pro</h3>
+                                <p>骁龙8+ 旗舰处理器 | 徕卡影像</p>
+                                <p class="price">4699元起</p>
+                            </a>
+                            <a href="#">
+                                <img
+                                    src="./images/202207012022_19bbddb6b35c3828f8b53f450c1519a3.webp"
+                                    alt="">
+                                <h3>Xiaomi 12S</h3>
+                                <p>小尺寸性能旗舰 | 徕卡影像</p>
+                                <p class="price">3999元起</p>
+                            </a>
+                            <a href="#">
+                                <img
+                                    src="./images/202207011841_084ed41d67f248677914605b73faf582.webp"
+                                    alt="">
+                                <h3>Xiaomi 12S Pro 天玑版</h3>
+                                <p>小全球首发天玑9000+ | 叶脉冷泵散热系统 | 2K AMOLED 超视感屏 |
+                                    5000万疾速影像</p>
+                                <p class="price">3999元起</p>
+                            </a>
+                            <a href="#">
+                                <img
+                                    src="./images/211bb83776a8e0c8358732c3f3aa2864.webp"
+                                    alt="">
+                                <h3>Redmi Note 11T Pro+</h3>
+                                <p>天玑8100 | 真旗舰芯</p>
+                                <p class="price">1999元起<del>2099元</del></p>
+
+                            </a>
+                            <a href="#">
+                                <img
+                                    src="./images/5713971c4bb6512743dfd06023080268.webp"
+                                    alt="">
+                                <h3>Redmi Note 11T Pro</h3>
+                                <p>天玑8100 | 真旗舰芯</p>
+                                <p class="price">1599元起<del>1799元</del></p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="smartwear">
+                        <div class="smartwear-header">
+                            <span>智能穿戴</span>
+                            <div class="sort">
+                                <a href="#" id="popular" class="click">热门</a>
+                                <a href="#" id="wear" class="">穿戴</a>
+                            </div>
+                        </div>
+                        <div class="product" id="product_popular">
+                            <a href="#" class="product-left">
+                                <img
+                                    src="./images/9895c56a7b792fb9053e3085fc261072.webp"
+                                    alt="">
+                            </a>
+                            <a href="#">
+                                <img
+                                    src="./images/b8259e8fb355acf168c66f75d375c6af.webp"
+                                    alt="">
+                                <h3>
+                                    Xiaomi Watch S1
+                                </h3>
+                                <p>超蓝宝石玻璃镜面 | 不锈钢中框 | 1.43”AMOLED大屏幕</p>
+                                <p class="price">1049元起<del>1099元</del></p>
+                            </a>
+                            <a href="#">
+                                <img
+                                    src="./images/0b271a074e087848357aa61ae665b214.webp"
+                                    alt="">
+                                <h3>
+                                    Xiaomi真无线降噪耳机3
+                                </h3>
+                                <p>40dB宽频主动降噪 | HiFi高保真音质 | HRTF专业调音</p>
+                                <p class="price">299元<del>499元</del></p>
+                            </a>
+                            <a href="#">
+                                <img
+                                    src="./images/f84503dbf5adbdf17111c61d4a7cf893.webp"
+                                    alt="">
+                                <h3>
+                                    Redmi 手表 2
+                                </h3>
+                                <p>1.6"AMOLED大屏 | 117种运动模式 | 24小时心率监测</p>
+                                <p class="price">399元</p>
+                            </a>
+                            <a href="#">
+                                <img
+                                    src="./images/0cc4e8e58d7288cd8dff13b98bdc3ea8.webp"
+                                    alt="">
+                                <h3>
+                                    Xiaomi 真无线降噪耳机 3 Pro
+                                </h3>
+                                <p>40dB自适应降噪 | 空间音频 | HiFi高保真音质</p>
+                                <p class="price">569元<del>699元</del></p>
+                            </a>
+                            <a href="#">
+                                <img
+                                    src="./images/11570d5371f16d2d9b19f504e09d01f0.webp"
+                                    alt="">
+                                <h3>
+                                    Redmi Buds 3半入耳真无线蓝牙耳机
+                                </h3>
+                                <p>轻巧半入耳 | 通话降噪 | 20小时长续航</p>
+                                <p class="price">169元<del>199元</del></p>
+                            </a>
+                            <a href="#">
+                                <img
+                                    src="./images/2fcf24e40ff09a254857ac8b4ace25b8.webp"
+                                    alt="">
+                                <h3>
+                                    Redmi Buds 3 青春版
+                                </h3>
+                                <p>轻巧真无线 | 猫耳状稳固设计 | 18小时长续航</p>
+                                <p class="price">99元</p>
+                            </a>
+                            <a href="#" class="more">
+                                <div>
+                                    <h2>浏览更多</h2>
+                                    <small>热门</small>
+                                    <i class="icon"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product vision" id="product_wear">
+                            <a href="#" class="product-left">
+                                <img
+                                    src="./images/9895c56a7b792fb9053e3085fc261072.webp"
+                                    alt="">
+                            </a>
+                            <a href="#">
+                                <img
+                                    src="./images/8a8de2281327e612f3f83fd1a4db6aea.webp"
+                                    alt="">
+                                <h3>
+                                    小米真无线蓝牙耳机Air2 SE
+                                </h3>
+                                <p>大尺寸动圈单元 | 20小时持久续航 | 双麦克风通话降噪</p>
+                                <p class="price">119元起<del>169元</del></p>
+                            </a>
+                            <a href="#" class="more">
+                                <div>
+                                    <h2>浏览更多</h2>
+                                    <small>热门</small>
+                                    <i class="icon"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="computer">
+                        <div class="computer-header">
+                            <span>笔记本 | 平板</span>
+                            <div class="sort">
+                                <a href="#" id="popular" class="click">热门</a>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <a href="#" class="product-left">
+                                <img
+                                    src="./images/e9896934bb657c3dd0c548952eb27481.webp"
+                                    alt="">
+                            </a>
+                            <a href="#">
+                                <img
+                                    src="./images/0f8abb2bc3947c4679e3f1b2aafc28c0.webp"
+                                    alt="">
+                                <h3>
+                                    Redmi Book Pro 15 2022
+                                </h3>
+                                <p>全新12代英特尔处理器</p>
+                                <p class="price">5599元起</p>
+                            </a>
+                            <a href="#">
+                                <img
+                                    src="./images/68637deb3ab9cecdc7805c7154e79683.webp"
+                                    alt="">
+                                <h3>
+                                    Redmi G 2021 R7/RTX3050Ti/16G/51
+                                </h3>
+                                <p>有光追，才是高性能游戏本</p>
+                                <p class="price">6299元</p>
+                            </a>
+                            <a href="#">
+                                <img
+                                    src="./images/01d9571051a91e540e5c644fa60cc858.webp"
+                                    alt="">
+                                <h3>
+                                    Pro 14 增强版 i5 独显 - Win11
+                                </h3>
+                                <p>2.5K超视网膜全面屏</p>
+                                <p class="price">4799元<del>5599元</del></p>
+                            </a>
+                            <a href="#">
+                                <img
+                                    src="./images/b60f8c50789c123c11e060e7b283a315.webp"
+                                    alt="">
+                                <h3>
+                                    RedmiBook Pro 15 R5/16G/512G 灰
+                                </h3>
+                                <p>3.2K 超清视网膜全面屏 | 微米级一体精雕工艺 </p>
+                                <p class="price">4499元<del>5299元</del></p>
+                            </a>
+                            <a href="#">
+                                <img
+                                    src="./images/e3c300330221ad788569e4fb1e6f932f.webp"
+                                    alt="">
+                                <h3>
+                                    Redmi Book Pro 14 2022
+                                </h3>
+                                <p>全新12代英特尔处理器，2.5K
+                                    120Hz高清屏，可选MX550独立显卡,CNC一体精雕工艺</p>
+                                <p class="price">5399元起</p>
+                            </a>
+                            <a href="#">
+                                <img
+                                    src="./images/ed0541d2337dc4fff6e52c2b7f162fe5.webp"
+                                    alt="">
+                                <h3>
+                                    小米平板5 Pro
+                                </h3>
+                                <p>骁龙870芯片 | 2.5K超高清 | 120HZ高刷新率 </p>
+                                <p class="price">2499元起</p>
+                            </a>
+                            <a href="#">
+                                <img
+                                    src="./images/7c37478d8b3b553ba0a50adaec2fc775.webp"
+                                    alt="">
+                                <h3>
+                                    Redmi显示器23.8英寸
+                                </h3>
+                                <p>IPS技术硬屏 | 1080P画质 </p>
+                                <p class="price">599元<del>849元</del></p>
+
+                            </a>
+                            <a href="#" class="more">
+                                <div>
+                                    <h2>浏览更多</h2>
+                                    <small>热门</small>
+                                    <i class="icon"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer-server">
+                    <ul>
+                        <li class="first-server"><a href=""><em class="iconfont-tool"></em>预约维修服务</a></li>
+                        <li><a href=""><em class="iconfont-circle-7"></em>7天无理由退货</a></li>
+                        <li><a href=""><em class="iconfont-circle-15"></em>15天免费换货</a></li>
+                        <li><a href=""><em class="iconfont-gift"></em>满69元包邮</a></li>
+                        <li><a href=""><em class="iconfont-location"></em>1100余家售后网点</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <div class="list-style"></div>
+                    <div class="list-style">
+                        <h3>选购指南</h3>
+                        <ul>
+                            <li><a href="">手机</a></li>
+                            <li><a href="">电视</a></li>
+                            <li><a href="">笔记本</a></li>
+                            <li><a href="">平板</a></li>
+                            <li><a href="">穿戴</a></li>
+                            <li><a href="">耳机</a></li>
+                            <li><a href="">家电</a></li>
+                            <li><a href="">路由器</a></li>
+                            <li><a href="">音箱</a></li>
+                            <li><a href="">配件</a></li>
+                        </ul>
+                    </div>
+                    <div class="list-style">
+                        <h3>服务中心</h3>
+                        <ul>
+                            <li><a href="">申请售后</a></li>
+                            <li><a href="">售后政策</a></li>
+                            <li><a href="">维修服务价格</a></li>
+                            <li><a href="">订单查询</a></li>
+                            <li><a href="">以旧换新</a></li>
+                            <li><a href="">保障服务</a></li>
+                            <li><a href="">防伪查询</a></li>
+                            <li><a href="">F码通道</a></li>
+                        </ul>
+                    </div>
+                    <div class="list-style">
+                        <h3>线下门店</h3>
+                        <ul>
+                            <li><a href="">小米之家</a></li>
+                            <li><a href="">服务网点</a></li>
+                            <li><a href="">授权体验店/专区</a></li>
+                        </ul>
+                    </div>
+                    <div class="list-style">
+                        <h3>关于小米</h3>
+                        <ul>
+                            <li><a href="">了解小米</a></li>
+                            <li><a href="">加入小米</a></li>
+                            <li><a href="">投资者关系</a></li>
+                            <li><a href="">环境，社会及管治</a></li>
+                            <li><a href="">廉洁举报</a></li>
+                        </ul>
+                    </div>
+                    <div class="list-style">
+                        <h3>关注我们</h3>
+                        <ul>
+                            <li><a href="">新浪微博</a></li>
+                            <li><a href="">官方微信</a></li>
+                            <li><a href="">投资者关系</a></li>
+                            <li><a href="">联系我们</a></li>
+                            <li><a href="">公益基金会</a></li>
+                        </ul>
+                    </div>
+                    <div class="phoneNumber">
+                        <h3>400-100-5678</h3>
+                        <small>8:00-18:00（仅收市话费）</small>
+                        <a><em class="iconfont-message2"></em>人工客服</a>
+                    </div>
                 </div>
             </div>
         </div>
         <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="./js/index.js"></script>
     </body>
 </html>
