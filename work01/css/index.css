@@ -690,3 +690,72 @@ rotation .carousel-control-next:hover {
     color: #fff !important;
     cursor: pointer;
 }
+
+/* 右侧工具条 */
+.tool-bar {
+    position: fixed;
+    margin-right: -1px;
+    right: 0;
+    bottom: 75px;
+    width: 84px;
+    height: 455px;
+}
+
+.gun {
+    bottom: 180px !important;
+}
+
+.tool-bar ul li a {
+    position: relative;
+    display: block;
+    font-size: 14px;
+    color: #757575;
+    width: 83px;
+    height: 91px;
+    background-color: #fff;
+    border: 1px solid #f5f5f5;
+    text-align: center;
+    transition: all .3s;
+}
+
+.tool-bar ul li a .icon {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin: 18px auto 8px;
+}
+
+.tool-bar ul li a img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    transition: opacity .3s;
+}
+
+.tool-bar ul li a:hover {
+    color: #ff6700;
+}
+
+.tool-bar ul li a:hover img {
+    opacity: 1;
+}
+
+.static {
+    opacity: 1;
+}
+
+.hover {
+    opacity: 0;
+}
+
+.hide-top {
+    margin-top: 14px;
+    border-top: 1px solid #f5f5f5;
+    display: none;
+}
+
+.go {
+    display: block !important;
+}
