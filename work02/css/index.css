@@ -1,11 +1,19 @@
+html {
+    font-size: 87px;
+}
+
 body {
     font: 14px/1.5 Helvetica Neue, Helvetica, Arial, Microsoft Yahei, Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif;
+}
+
+body a:hover {
+    color: #ff6700;
 }
 
 /* 整体布局 */
 .app {
     display: grid;
-    grid: 40px 100px 670px / auto;
+    grid: 40px 100px 60px auto / auto;
 }
 
 /* top-bar顶部条 */
@@ -83,6 +91,7 @@ body {
 .header-bg {
     display: flex;
     justify-content: center;
+    border-bottom: 1px solid rgb(224, 224, 224);
 }
 
 .header-bg .header {
@@ -115,7 +124,7 @@ body {
 }
 
 .header-bg .header-nav {
-    margin-left: 60px;
+    margin-right: 20px;
 }
 
 .header-bg .header-nav ul {
@@ -128,7 +137,7 @@ body {
 .header-bg .header-nav ul a {
     color: #333;
     font-size: 16px;
-    padding: 26px 8px 38px;
+    padding: 26px 10px 38px;
     transition: all .2s;
 }
 
@@ -167,4 +176,190 @@ body {
     top: calc(50% - 8px);
     left: calc(50% - 8px);
     background-size: 16px;
+}
+
+/* 类品 */
+.details-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details {
+    width: 1226px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.introduce {
+    display: flex;
+    align-items: center;
+}
+
+.introduce h2 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #424242;
+}
+
+.introduce ul {
+    display: flex;
+    align-items: center;
+}
+
+.introduce ul li a {
+    color: #616161;
+    font-size: 12px;
+}
+
+.introduce .separator {
+    color: #424242;
+}
+
+.introduce-right ul {
+    display: flex;
+    align-items: center;
+}
+
+.introduce-right ul li a {
+    color: #616161;
+    font-size: 14px;
+}
+
+.introduce-right .buy {
+    display: block;
+    width: 118px;
+    height: 28px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 28px;
+    color: #fff;
+    margin-left: 5px;
+    background: #ff6700;
+    border-color: #ff6700;
+    transition: all .4s;
+}
+
+.introduce-right .buy:hover {
+    background: #ec5e00;
+    border-color: #ec5e00;
+}
+
+.introduce .separator {
+    font-size: 12px;
+}
+
+.separator {
+    color: #e0e0e0;
+    margin: 0 11px;
+}
+
+.fixed {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    margin-top: -60px;
+    background-color: #fff;
+    z-index: 9;
+    transition: margin-top .3s linear;
+}
+
+.show {
+    margin-top: 0;
+}
+
+/* 介绍详情 */
+
+.contain {
+    width: 100%;
+    height: 9000px;
+    background-color: #000;
+}
+
+.msa-animated {
+    opacity: 1 !important;
+    transform: none !important;
+    z-index: 2;
+}
+
+.introduce1 {
+    position: relative;
+    margin-bottom: -18%;
+    background-color: #000;
+    opacity: 0;
+    transition-timing-function: ease;
+    transition-duration: 800ms;
+    transform: translate3d(0, 30px, 0);
+}
+
+.introduce1 .img1 {
+    width: 80%;
+    z-index: 0;
+}
+
+.introduce1 .img2 {
+    width: 29%;
+    position: absolute;
+    top: 28%;
+    right: 13.8%;
+}
+
+.introduce1 span {
+    font-size: 68px;
+    letter-spacing: 18px;
+    color: #fff;
+    font-family: MiSans-Medium;
+    font-weight: 500;
+    position: absolute;
+    top: 35%;
+    right: 20.5%;
+}
+
+.introduce2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-bottom: -18%;
+    opacity: 0;
+    transition-timing-function: ease;
+    transition-duration: 800ms;
+    transform: translate3d(0, 30px, 0);
+}
+
+.introduce2 .span1 {
+    width: 40%;
+    font-size: 0.36rem;
+    line-height: 0.76rem;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 160px;
+    left: 30%;
+}
+
+.introduce3 {
+    position: relative;
+    z-index: 2;
+}
+
+.introduce3 .img-top {
+    display: flex;
+    justify-content: center;
+}
+
+.introduce3 .img-top img {
+    margin-left: 10px;
+}
+
+.img3 {
+    width: 8.37rem;
+    height: 6.87rem
+}
+
+.img4 {
+    width: 6.51rem;
+    height: 6.87rem;
 }
