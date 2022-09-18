@@ -27,4 +27,4 @@ setInterval(() => {
         tool_bar.classList.remove('gun')
         gotop.classList.remove('go')
     }
-}, 500);
+}, 300);

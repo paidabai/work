@@ -3,6 +3,7 @@ window.onload = function(){
 }
 
 let animate1 = document.getElementById('animate1')
+let animate2 = document.getElementById('animate2')
 let top_details = document.getElementById('top-details')
 
 setInterval(() => {
@@ -10,6 +11,14 @@ setInterval(() => {
         animate1.classList.add('msa-animated')
     }else {
         animate1.classList.remove('msa-animated')
+    }
+}, 300);
+
+setInterval(() => {
+    if (window.pageYOffset > 2000) {
+        animate2.classList.add('msa-animated')
+    }else {
+        animate2.classList.remove('msa-animated')
     }
 }, 300);
 
