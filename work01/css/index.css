@@ -699,6 +699,7 @@ rotation .carousel-control-next:hover {
     bottom: 75px;
     width: 84px;
     height: 455px;
+    z-index: 9;
 }
 
 .gun {
